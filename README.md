@@ -43,16 +43,9 @@
 
 ## Gameplay
 
-<p align="center"><em>플레이 이미지가 추가될 자리입니다.</em></p>
-
-<!--
-플레이 이미지를 docs/images/gameplay.png로 추가한 뒤 위 안내 문구를 지우고
-아래 이미지 태그의 주석을 해제하세요.
-
-<p align="center">
-  <img src="docs/images/gameplay.png" alt="Goalkeeper Game gameplay" width="640">
-</p>
--->
+| 1. 메인 / 시작 화면 | 2. 아이템 선택 화면 | 3. 게임 플레이 화면 |
+| :---: | :---: | :---: |
+| <img src="docs/images/01_start.png" width="260" alt="Start Screen" /> | <img src="docs/images/02_items.png" width="260" alt="Item Select Screen" /> | <img src="docs/images/03_gameplay.png" width="260" alt="Gameplay Screen" /> |
 
 ## Features
 
