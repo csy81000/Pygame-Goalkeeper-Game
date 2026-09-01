@@ -9,7 +9,50 @@
 | 진행 시기 | 2024년 3학년 1학기 |
 | 과목 | 파이썬 프로그래밍 |
 
-![기본 경기장](assets/stadium1.png)
+## Item gallery
+
+### Stadiums
+
+<table>
+  <tr>
+    <th>Stadium 1</th>
+    <th>Stadium 2</th>
+    <th>Stadium 3</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/stadium1-1.png" alt="Stadium 1" width="180"></td>
+    <td align="center"><img src="assets/stadium2-1.png" alt="Stadium 2" width="180"></td>
+    <td align="center"><img src="assets/stadium3-1.png" alt="Stadium 3" width="180"></td>
+  </tr>
+</table>
+
+### Gloves
+
+<table>
+  <tr>
+    <th>Glove 1 · Slower shots</th>
+    <th>Glove 2 · Wider save area</th>
+    <th>Glove 3 · Extra life</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/gloves1.png" alt="Glove 1" width="120"></td>
+    <td align="center"><img src="assets/gloves2.png" alt="Glove 2" width="120"></td>
+    <td align="center"><img src="assets/gloves3.png" alt="Glove 3" width="120"></td>
+  </tr>
+</table>
+
+## Gameplay
+
+<p align="center"><em>플레이 이미지가 추가될 자리입니다.</em></p>
+
+<!--
+플레이 이미지를 docs/images/gameplay.png로 추가한 뒤 위 안내 문구를 지우고
+아래 이미지 태그의 주석을 해제하세요.
+
+<p align="center">
+  <img src="docs/images/gameplay.png" alt="Goalkeeper Game gameplay" width="640">
+</p>
+-->
 
 ## Features
 
@@ -47,6 +90,14 @@ python main.py
 pygame-goalkeeper-game/
 ├─ assets/          # 경기장, 공, 장갑, 키커 이미지
 ├─ data/            # 실행 중 생성되는 선택 설정과 랭킹
+├─ docs/images/     # README용 플레이 이미지
 ├─ main.py          # 메뉴, 게임 루프, 충돌 처리, 데이터 저장
 └─ requirements.txt
 ```
+
+## Repository notes
+
+- 이미지 경로는 프로젝트 폴더를 기준으로 계산하므로 설치 위치와 관계없이 실행할 수 있습니다.
+- 필요한 Python 패키지는 `requirements.txt`에서 관리합니다.
+- `data/selection.json`과 `data/ranking.tsv`는 실행 중 자동으로 생성되는 사용자 데이터이며 Git에서 제외됩니다.
+- Python 캐시, 가상 환경과 실행 데이터는 `.gitignore`에 포함했습니다.
