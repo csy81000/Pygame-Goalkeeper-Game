@@ -13,7 +13,7 @@
 
 | 1. 메인 / 시작 화면 | 2. 아이템 선택 화면 | 3. 게임 플레이 화면 |
 | :---: | :---: | :---: |
-| <img src="docs/images/01_start.png" width="260" alt="Start Screen" /> | <img src="docs/images/02_items.png" width="260" alt="Item Select Screen" /> | <img src="docs/images/03_gameplay.png" width="260" alt="Gameplay Screen" /> |
+| <img src="images/01_start.png" width="260" alt="Start Screen" /> | <img src="images/02_items.png" width="260" alt="Item Select Screen" /> | <img src="images/03_gameplay.png" width="260" alt="Gameplay Screen" /> |
 
 
 ## Item gallery
