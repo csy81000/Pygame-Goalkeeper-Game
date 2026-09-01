@@ -88,10 +88,3 @@ pygame-goalkeeper-game/
 ├─ main.py          # 메뉴, 게임 루프, 충돌 처리, 데이터 저장
 └─ requirements.txt
 ```
-
-## Repository notes
-
-- 이미지 경로는 프로젝트 폴더를 기준으로 계산하므로 설치 위치와 관계없이 실행할 수 있습니다.
-- 필요한 Python 패키지는 `requirements.txt`에서 관리합니다.
-- `data/selection.json`과 `data/ranking.tsv`는 실행 중 자동으로 생성되는 사용자 데이터이며 Git에서 제외됩니다.
-- Python 캐시, 가상 환경과 실행 데이터는 `.gitignore`에 포함했습니다.
